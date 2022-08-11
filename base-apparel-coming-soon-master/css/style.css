@@ -97,7 +97,9 @@ main .card {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
   width: 1440px;
+  max-width: 1440px;
   height: 810px;
+  max-height: 810px;
   background: var(--grad-1);
   background-position: center;
   background-repeat: no-repeat;
@@ -110,7 +112,7 @@ main .card {
 main .card .logo {
   position: absolute;
   width: 1440px;
-  height: 10vh;
+  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
